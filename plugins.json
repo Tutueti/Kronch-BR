@@ -1,0 +1,82 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tutueti/Kronch-BR",
+        "fileSize": 48674,
+        "status": 0,
+        "language": "de",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 3,
+        "internalName": "KamyrollDEProvider",
+        "description": "Schauen Sie sich alle Crunchyroll-Anime \u00fcber die Kamyroll-API an. Dieser Anbieter zeigt nur Anime mit deutschen Untertiteln/Synchronisationen.",
+        "url": "https://raw.githubusercontent.com/Tutueti/Kronch-BR/builds/KamyrollDEProvider.cs3",
+        "name": "KamyrollDEProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tutueti/Kronch-BR",
+        "fileSize": 48812,
+        "status": 0,
+        "language": "en",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 8,
+        "internalName": "KamyrollENProvider",
+        "description": "Watch crunchyroll through Kamyroll API, this extension will only display english dubbed/hardsubbed anime",
+        "url": "https://raw.githubusercontent.com/Tutueti/Kronch-BR/builds/KamyrollENProvider.cs3",
+        "name": "KamyrollENProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tutueti/Kronch-BR",
+        "fileSize": 48488,
+        "status": 0,
+        "language": "es",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 8,
+        "internalName": "KamyrollESProvider",
+        "description": "Observa todos los animes de crunchyroll a trav\u00e9s de la API Kamyroll, este proveedor solo mostrar\u00e1 anime subtitulado/doblado en espa\u00f1ol",
+        "url": "https://raw.githubusercontent.com/Tutueti/Kronch-BR/builds/KamyrollESProvider.cs3",
+        "name": "KamyrollESProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/kronch.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Tutueti/Kronch-BR",
+        "fileSize": 73486,
+        "status": 1,
+        "language": "pt",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 18,
+        "internalName": "KronchBRProvider",
+        "description": "Com esta extens\u00e3o poder\u00e1 ver anime legendado/dublado dispon\u00edvel no cat\u00e1logo.",
+        "url": "https://raw.githubusercontent.com/Tutueti/Kronch-BR/builds/KronchBRProvider.cs3",
+        "name": "KronchBRProvider"
+    }
+]
