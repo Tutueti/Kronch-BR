@@ -1,0 +1,8 @@
+{
+    "name": "Kronch pt-BR provider repository",
+    "description": "Kronch pt-BR Repository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/Tutueti/Kronch-BR/builds/plugins.json"
+    ]
+  }
