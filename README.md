@@ -1,4 +1,4 @@
-# `Kronch - BR`
+# `Kronch-BR`
 
 
 ## Attribution
