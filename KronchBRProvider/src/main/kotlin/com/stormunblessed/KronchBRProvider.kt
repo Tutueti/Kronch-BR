@@ -17,7 +17,7 @@ import java.net.InetSocketAddress
 import java.net.PasswordAuthentication
 import java.net.Proxy
 
-class KronchESProvider: MainAPI() {
+class KronchENProvider: MainAPI() {
 
     companion object {
         //var latestHeader: Map<String, String> = emptyMap()
