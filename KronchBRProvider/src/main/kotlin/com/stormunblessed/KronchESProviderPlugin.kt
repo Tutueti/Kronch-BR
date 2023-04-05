@@ -6,10 +6,10 @@ import android.content.Context
 import android.os.Handler
 
 @CloudstreamPlugin
-class KronchBRProviderPlugin: Plugin() {
+class KronchESProviderPlugin: Plugin() {
     override fun load(context: Context) {
         // All providers should be added in this manner. Please don't edit the providers list directly.
-        registerMainAPI(KronchBRProvider())
+        registerMainAPI(KronchESProvider())
     }
     companion object {
         /**
