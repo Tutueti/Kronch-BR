@@ -33,7 +33,8 @@ class KronchESProvider: MainAPI() {
     override var mainUrl = "https://www.crunchyroll.com"
     override val instantLinkLoading = false
     override val hasMainPage = true
-    override var lang = "pt"
+    override var lang = "pt-BR"
+	override val hasQuickSearch = true
     override val supportedTypes = setOf(
         TvType.AnimeMovie,
         TvType.Anime,
@@ -376,6 +377,11 @@ class KronchESProvider: MainAPI() {
         @JsonProperty("linked_resource_key" ) var linkedResourceKey : String?         = null,
         @JsonProperty("new"                 ) var new               : Boolean?        = null
     )
+	
+	    override suspend fun quickSearch(query: String): List<SearchResponse> {
+        return search(query)
+    }
+
     override suspend fun search(query: String): List<SearchResponse> {
         proxyToken()
         val url = "$krunchyapi/content/v2/discover/search?q=$query&type=series,movie_listing"
